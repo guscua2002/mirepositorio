@@ -3,7 +3,7 @@ class Ninja {
     constructor(nombre) {
         this.nombre = nombre;
         this.salud = 0;
-        this.velocidad = 4;
+        this.velocidad = 3;
         this.fuerza = 3;
     }
     sayName(){
