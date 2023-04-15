@@ -18,19 +18,16 @@ class Ninja {
 }
 
 const ninja1 = new Ninja("Hyabusa");
-ninja1.drinkSake();
-ninja1.drinkSake();
-ninja1.sayName();
-ninja1.showStats();
 
 class Sensei extends Ninja{
 
     constructor(nombre) {
         super(nombre)
-        this.sabiduria = 10;
         this.salud = 200;
         this.velocidad = 10;
         this.fuerza = 10;
+        this.sabiduria = 10;
+        
     }
     speakWisdom(){
         super.drinkSake();
